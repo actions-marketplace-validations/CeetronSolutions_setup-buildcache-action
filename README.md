@@ -1,6 +1,6 @@
 # Setup buildcache GitHub Action
 
-This GitHub Action installs [buildcache](https://gitlab.com/bits-n-bites/buildcache) and adds it to the PATH for both Windows and Linux runners.
+This GitHub Action installs [https://gitlab.com/bits-n-bites/buildcache](https://gitlab.com/bits-n-bites/buildcache) and adds it to the PATH for both Windows and Linux runners.
 
 ## Features
 
@@ -96,7 +96,6 @@ The action extracts buildcache to a version-specific directory in the user's hom
 - Avoids requiring administrator privileges for binary installation
 - Supports multiple buildcache versions simultaneously  
 - Keeps installations isolated and manageable
-- Automatically installs required system dependencies (OpenSSL libraries on Linux)
 
 ## Using buildcache with CMake
 
